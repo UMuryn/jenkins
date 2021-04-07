@@ -4,7 +4,7 @@ pipeline {
    // tools {
     //    terraform "Terraform 0.14.8"
 //    }
-
+    stages {
         
         stage('Build') {
             steps {
@@ -24,6 +24,4 @@ pipeline {
         }         
 
     }
-
-
-
+}
