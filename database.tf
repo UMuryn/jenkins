@@ -1,7 +1,7 @@
 provider "aws" {
-#access_key = var.access_key
-#secret_key = var.secret_key
-#  region = var.region
+access_key = var.access_key
+secret_key = var.secret_key
+  region = var.region
 }
 resource "aws_db_instance" "lavagna" {
   engine               = "mysql"
@@ -11,6 +11,6 @@ resource "aws_db_instance" "lavagna" {
  allocated_storage     = 50
   max_allocated_storage = 100
   # Set the secrets from variables
-#  username             = var.username
-#  password             = var.password
+  username             = var.username
+  password             = var.password
 }
