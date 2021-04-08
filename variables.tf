@@ -1,3 +1,6 @@
+terraform {
+  required_version = ">= 0.12"
+}
 variable "access_key" {
   description = "The access_key for aws"
   type        = string
