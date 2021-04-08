@@ -14,3 +14,12 @@ variable "OAuthToken" {
   description = "The OAuthToken for github"
   type        = string
 }
+variable "username" {
+  description = "The username for db"
+  type        = string
+}
+
+variable "password" {
+  description = "The password for db"
+  type        = string
+}
