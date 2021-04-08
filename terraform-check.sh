@@ -1,6 +1,6 @@
 #!/bin/bash
-#terraform --version
+terraform --version
 #terraform fmt
-terraform init
+#terraform init
 #terraform validate
 #terraform plan
