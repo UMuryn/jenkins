@@ -8,7 +8,7 @@ terraform {
 }
 variable "access_key" {
   description = "The access_key for aws"
-  type        = 'string'
+  type        = "string"
   default     = "access_key"
 }
 
