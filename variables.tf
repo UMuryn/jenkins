@@ -11,7 +11,7 @@ variable "secret_key" {
 variable "region" {
   description = "The region for aws"
   type        = string
-  default     = "region"
+  default     = "eu-west-2"
 }
 variable "username" {
   description = "The username for db"
