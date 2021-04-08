@@ -11,6 +11,6 @@ resource "aws_db_instance" "lavagna" {
  allocated_storage     = 50
   max_allocated_storage = 100
   # Set the secrets from variables
-  username             = var.username
-  password             = var.password
+#  username             = var.username
+#  password             = var.password
 }
